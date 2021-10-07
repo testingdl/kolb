@@ -1,0 +1,130 @@
+body {	
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 31px;
+	background-position: center center;
+	font-size: 1.1em;
+}
+
+.v-flex-center  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 1px 1px 16px #000;
+	width: 100%;
+}
+
+nav {
+	opacity: 0.9;	
+}
+
+.question-error {
+	border-color: #761b18 !important;	
+}
+
+
+.list-group {
+	min-height: 195px;
+}
+
+.speech-bubble-right {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+	padding: 4em;
+	margin: 0 auto;	
+	border: 1px solid #cdcdcd;
+}
+
+.speech-bubble-right:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 1.688em solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -0.844em;
+	margin-right: -1.687em;	
+}
+
+.speech-bubble-bottom {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+	padding: 4em;
+	margin: 0 auto;	
+	border: 1px solid #cdcdcd;
+}
+
+.speech-bubble-bottom:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 1.688em solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -13.5px;
+	margin-bottom: -27px;
+}
+
+.btn-main {
+	font-size: 3em;
+	padding: 0.25em 1.5em;	
+}
+
+/**********************
+ DEBUG
+***********************/
+.debug-body {
+	color: #721c24;
+	background-color: #f8d7da;
+	border: 1px solid #f5c6cb;
+	width: 100%;
+	padding: 0;
+}
+
+
+/**********************
+ OVERRIDES
+***********************/
+
+.vue-form-wizard .wizard-btn {
+	border-radius: 0 !important;
+}
+
+.vue-form-wizard {
+	padding-bottom: 0 !important;
+}
+
+.wizard-card-footer {
+	padding-bottom: 0 !important;
+}
+
+.vue-form-wizard .wizard-btn {
+	font-size: 26px !important;
+	padding: 6px 62px !important;
+}
+
+.wizard-card-footer {
+	padding: 0 !important;
+}
+
+#form-kolb {
+	margin-bottom: 0 !important;
+}
+
+#form-kolb .form-group {
+	margin-bottom: 0 !important;
+}
